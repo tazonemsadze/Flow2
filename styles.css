@@ -1,0 +1,107 @@
+@import url(https://db.onlinewebfonts.com/c/580d0b6ae5b3c94beebe9321892e6d4d?family=Archy+EDT);
+/* font-family: "Archy EDT"; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-footer-bg: #2e2e2e;
+  --unnamed-color-fcfcfc: #fcfcfc;
+
+  --primary-text-color: #707070;
+  --color-footer-font: #f2f2f2;
+
+  --nav-fs: 20px;
+  --info-heading-fs: 20px;
+  --info-fs: 13px;
+}
+
+/* ------------------- */
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-white);
+  font-family: "Archy EDT", sans-serif;
+}
+
+header,
+main {
+  padding: 25px 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__carousel {
+  margin-block: 68px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav__list--items {
+  display: flex;
+  gap: 2rem;
+
+  font-size: var(--nav-fs);
+  font-weight: 100;
+  color: var(--primary-text-color);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-footer-bg);
+
+  color: var(--color-footer-font);
+  font-weight: 100;
+
+  padding: 25px;
+}
+
+.footer__info--header {
+  font-size: var(--info-heading-fs);
+  font-weight: 100;
+}
+
+.footer--info {
+  font-size: var(--info-fs);
+  font-weight: 100;
+}
+
+.socials__list--items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.socials__list--items {
+  width: 70px;
+  height: 70px;
+}
